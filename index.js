@@ -1,11 +1,13 @@
-function updateHeading(ev) {
+function update(ev) {
     ev.preventDefault()
     const f = event.target
-    const name = f.personName.value
+    const name = f.name.value
+    const color = f.color.value
     const heading = document.querySelector('h1')
-    heading.textContent = name
     heading.innerHTML = name
+    const divPara = document.querySelector('#divCont')
+    divPara.innerHTML = name + " " + color 
 }
 
 const personForm = document.querySelector('#person-form')
-personForm.addEventListener('submit', updateHeading)
+personForm.addEventListener('submit', update)

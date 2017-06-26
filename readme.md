@@ -2,7 +2,7 @@
 
 ##Day 1 Homework
 
-Update tge new _details_ div with the value of the text input
+Update the new _details_ div with the value of the text input
 
 ### Bonus Credit
 
