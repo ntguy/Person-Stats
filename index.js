@@ -7,6 +7,7 @@ function update(ev) {
     heading.innerHTML = name
     const divPara = document.querySelector('#divCont')
     divPara.innerHTML = name + " " + color 
+    document.body.style.backgroundColor = color;
 }
 
 const personForm = document.querySelector('#person-form')
