@@ -6,8 +6,7 @@ function update(ev) {
     const heading = document.querySelector('h1')
     heading.innerHTML = name
     const divPara = document.querySelector('#divCont')
-    divPara.innerHTML = name + " " + color 
-    document.body.style.backgroundColor = color;
+    divPara.innerHTML = (name + " " + color).fontcolor(color) 
 }
 
 const personForm = document.querySelector('#person-form')
