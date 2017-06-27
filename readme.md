@@ -1,4 +1,5 @@
 #Person Stats
+The first JavaScript project for Xtern Bootcamp 2017 Session 3.
 
 ##Day 1 Homework
 
